@@ -16,3 +16,29 @@ if (name2.toLowerCase() === name1.toLowerCase()) {
     
     console.log(true)
 }
+
+
+// Create a variable named x, and assign to it a numeric value less than 10.
+// Write the code to print the literal value of x (ex.: if x is 1, it should print "one", if x is 5 it should print "five" etc.).
+
+// 
+// Create a variable and assign to it an array containing the first 5 positive numbers.
+
+
+let z=1 ;
+
+if (z === 1) {
+console.log("one");
+} 
+else if (z === 2) {
+ console.log("two");
+}
+else if (z === 3) {
+    console.log("three");
+}
+else {
+    console.log("finish");
+}
+
+let positiveNumbers = [1,2,3,4,5]
+console.log(positiveNumbers);
