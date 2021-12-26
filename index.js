@@ -42,3 +42,9 @@ else {
 
 let positiveNumbers = [1,2,3,4,5]
 console.log(positiveNumbers);
+
+// Create a variable called age and assing a number to it. if age is less than 18 years, print 'You can not buy alcohol',
+// if age is above or equal 18, print 'it is okay'.  (use ternort operator)
+let age = 17;
+ newAge = age < 18 ? 'You can not buy alcohol' : 'it is okay';
+console.log(newAge)
