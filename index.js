@@ -48,3 +48,13 @@ console.log(positiveNumbers);
 let age = 17;
  newAge = age < 18 ? 'You can not buy alcohol' : 'it is okay';
 console.log(newAge)
+
+
+// Create a variable and assign to it an object containing your name, surname, email address and age.
+// add to the previously created object a property with a boolean value to rappresent wheter you have or not a driving license.
+// Remove from the previously created object the age property.
+ let personal = {firstname : 'sergio', surname : 'romero', email: 'sergioromero@mosley.com', age:87}
+ personal.havedriverlicense = true;
+ delete personal.age;
+console.log(personal)
+ 
