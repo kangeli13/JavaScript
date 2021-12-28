@@ -53,8 +53,37 @@ console.log(newAge)
 // Create a variable and assign to it an object containing your name, surname, email address and age.
 // add to the previously created object a property with a boolean value to rappresent wheter you have or not a driving license.
 // Remove from the previously created object the age property.
- let personal = {firstname : 'sergio', surname : 'romero', email: 'sergioromero@mosley.com', age:87}
+
+ let personal = {
+     firstname : 'sergio', 
+     surname : 'romero', 
+     email: 'sergioromero@mosley.com', 
+     age:87}
+
  personal.havedriverlicense = true;
+
  delete personal.age;
+
 console.log(personal)
  
+// Create a second object with another name, surname, email address and verify that this object has a different email address than the previous one.
+let secondPerson = {
+    firstname : 'audry',
+    surname : 'toldo', 
+    email: 'toldo@company.com',
+    age:93}    
+
+emailsComparison = personal.email !== secondPerson.email ? 'emails are different' : 'emails are same';
+
+console.log(emailsComparison)
+
+
+// You are working on an e-commerce website. In the variable totalShoppingCart you are storing the total amount spent by the current user.
+//  Currently you have a promotion: if the customer's shopping cart total is more than 50, the user is eligible for free shipping (otherwise it costs 10).
+//  Write an algorithm that calculates the total cost to charge the user with.
+let totalShoppingCart = 90;
+
+
+ totalShoppingCart > 50 ? 'user are eligible for free shipping' : totalShoppingCart +=10
+
+
