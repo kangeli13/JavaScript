@@ -9,7 +9,7 @@ console.log(x/12);
 let name1 = "john";
  
 let name2 = "John"; 
-  
+   
 console.log(name1 === name2)
 
 if (name2.toLowerCase() === name1.toLowerCase()) {
