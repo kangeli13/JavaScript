@@ -6,7 +6,7 @@
    Create a variable called test and assign a string value to it.
 */    
   let test = "hello";    
- 
+  
 /*  
     Create a variable called sum and assign to it the result of the sum between the numbers 10 and 20.
 */
