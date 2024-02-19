@@ -3,7 +3,7 @@
 // JS Basics  
          
 /*            
-   Create a variable called test and assign a string value to it.
+   Create a variable called test and assign a string value to it. 
 */     
   let test = "hello";      
    
