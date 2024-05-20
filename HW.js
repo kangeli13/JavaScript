@@ -5,7 +5,7 @@
 const area = function (l1, l2){ 
   return l1*l2;  
  
-}    
+}     
 
 let areaResult = area(2 , 4);
 console.log(areaResult); 
