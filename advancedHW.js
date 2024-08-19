@@ -1,6 +1,6 @@
 
  
-// JS Basics    
+// JS Basics     
            
 /*                
    Create a variable called test and assign a string value to it.  
