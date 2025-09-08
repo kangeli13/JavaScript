@@ -1,6 +1,6 @@
 
 //  Write a function called "area" which receives 2 parameters (l1, l2) and calculates the area of the associated rectangle.
- 
+  
   
 const area = function (l1, l2){     
   return l1*l2;   
